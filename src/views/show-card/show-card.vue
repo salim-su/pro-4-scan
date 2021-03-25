@@ -81,7 +81,6 @@
           </div>
         </div>
       </div>
-
       <div v-if="active === 1">
         <div :key="index" v-for="(item,index) in info.gridAreaManagementGroupList" class="mb15">
           <div class="flex align-items-center mb15">
