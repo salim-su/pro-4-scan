@@ -56,7 +56,7 @@ module.exports = {
     proxy: {
       // 配置跨域
       '/api/tjpn4-safety': {
-        target: 'http://localhost:8088/',
+        target: 'http://192.168.1.110:8088/',
         // ws:true,
         changOrigin: true,
         pathRewrite: {
@@ -65,7 +65,8 @@ module.exports = {
       },
       // 配置跨域
       '/api/login': {
-        target: 'http://localhost:8088/',
+        target: 'http://http://192.168.1.110:8088/',
+        // target: 'http://localhost:8088/',
         // ws:true,
         changOrigin: true,
         pathRewrite: {
